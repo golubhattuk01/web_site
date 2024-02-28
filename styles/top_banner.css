@@ -1,0 +1,19 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top_banner
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #4fb3b4;
+}
+.small_bold_text
+{
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+}

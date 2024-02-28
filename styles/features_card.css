@@ -1,0 +1,11 @@
+.features_card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.features_card img
+{
+    height: 100px;
+    width: 100px;
+}

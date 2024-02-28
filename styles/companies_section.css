@@ -1,0 +1,20 @@
+.companies_section
+{
+   margin-top: 50px;
+   
+}
+.companies_section h3
+{
+   text-align: center;
+}
+.logos
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.logos img{
+    height: 100px;
+    width: 100px;
+}

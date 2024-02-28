@@ -1,0 +1,23 @@
+.example_section
+{
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.upper_box
+{
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lower_box
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}

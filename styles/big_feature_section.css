@@ -1,0 +1,25 @@
+.big_feature_section
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 50px 0px;
+
+}
+.big_feature_section img{
+    align-self:flex-start ;
+    width: 45%;
+}
+.right_x
+{   
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.right_x h1 h4 p
+{
+    text-align: center;
+    
+}

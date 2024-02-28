@@ -1,0 +1,46 @@
+
+.footer
+{
+    /* width: 100%; */
+    padding: 50px 0px;
+    display: grid;
+    grid-template-rows: repeat(1 ,1fr);
+    grid-template-columns: repeat(4 ,1fr);
+    column-gap: 20px;
+}
+.footer a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.footer a:hover{
+    color: rgb(228, 2, 2);
+    font-weight: 800;
+    transition: 0.5s;
+}
+.left_x{
+    display: flex;
+    text-decoration: none;
+    gap: 5px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.methodology{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.resources{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 25%;
+}

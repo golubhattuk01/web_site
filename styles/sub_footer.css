@@ -1,0 +1,14 @@
+.sub_footer
+{
+    width: 100%;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: skyblue;
+}
+.sub_footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
