@@ -29,9 +29,14 @@
 }
 
 @media (width<=800px) {
+    .header
+    {
+        gap: 10px;
+    }
     .h_right img
     {
         min-width: 70vw;
+        min-height: 80vh;
         padding: 10px;
     }
     .h_right

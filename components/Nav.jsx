@@ -31,7 +31,7 @@ const Nav = () => {
         ))}
       </div>
       <a href="/#" className="options">
-        <PiDotsThreeCircleVerticalFill size="10vw" />
+        <PiDotsThreeCircleVerticalFill size="8vw" />
       </a>
     </div>
   );
