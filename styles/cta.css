@@ -9,3 +9,23 @@
     padding: 70px 0px;
     color: white;
 }
+.cta h3{
+    text-align: center;
+}
+.cta h4{
+    text-align: center;
+}
+@media (width<=800) {
+    .cta h3{
+        font-size: .9rem;
+    }
+    .cta h4{
+        font-size: .6rem;
+    }  
+
+    .mybtn
+    {
+        width: 90%;
+        margin: auto;
+    }
+}

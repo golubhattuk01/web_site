@@ -3,7 +3,7 @@ import "../styles/header.css";
 const Header = () => {
   return (
     <div className="header">
-      <div className="left">
+      <div className="h_left">
         <h1>Design confidently</h1>
         <h3>
           Usability is a remote use research platform that takes the guesswork
@@ -13,7 +13,7 @@ const Header = () => {
           Get Started
         </button>
       </div>
-      <div className="right">
+      <div className="h_right">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkeiukhvsuxM7OV0cdgvgjMsr8eBzdzYTBDw&usqp=CAUs" />
       </div>
     </div>

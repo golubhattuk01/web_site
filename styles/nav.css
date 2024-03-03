@@ -11,20 +11,22 @@
     height: 100px;
     border-radius: 25%;
 }
-.left{
-    align-self: flex-start;
+.n_left{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     text-decoration: none;
 }
-.right
+.n_right
 {
     align-items: center;
     display: flex;
-    align-self: flex-end;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     gap: 40px;
+}
+.options
+{
+    display: none;
 }
 
 .title
@@ -48,4 +50,16 @@
     color: #2294ed;
     transition: 0.2s ease-out;
   }
+
+  @media (width<=1200px) {
+    .n_right
+    {
+        display: none;
+    }
+    .options
+    {
+        display: inline-block;
+    }
+    
+}
   

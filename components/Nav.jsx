@@ -1,11 +1,12 @@
 import "../src/app.css";
 import "../styles/nav.css";
+import { PiDotsThreeCircleVerticalFill } from "react-icons/pi";
 const Nav = () => {
   const navItems = ["Products", "Customers", "Pricing", "Resources"];
   const navButton = ["SignIn", "SignUp"];
   return (
     <div className="nav">
-      <a href="/#" className="left">
+      <a href="/#" className="n_left">
         <div className="logo">
           <img
             src="https://cdn.pixabay.com/photo/2016/12/27/13/10/logo-1933884_1280.png"
@@ -14,7 +15,7 @@ const Nav = () => {
         </div>
         <h1 className="title">UsabilityHub</h1>
       </a>
-      <div className="right">
+      <div className="n_right">
         {navItems.map((currItem) => (
           <a className="nav_link" key={currItem} href="/#">
             {currItem}
@@ -29,6 +30,9 @@ const Nav = () => {
           </a>
         ))}
       </div>
+      <a href="/#" className="options">
+        <PiDotsThreeCircleVerticalFill size="10vw" />
+      </a>
     </div>
   );
 };

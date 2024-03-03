@@ -3,30 +3,59 @@
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-around;
-    /* padding-top: 40px; */
+    padding-top: 40px;
     align-items: center;
     margin-top: 50px;
     
 }
-.left
+.h_left
 {
     gap: 20px; 
     max-width: 40vw;
     align-self: flex-start;
 }
-.right
+.h_right
 {
-  max-width: 60vw;
-  /* overflow: hidden; */
+  max-width: 70vw;
   align-self: flex-end;
 }
-.right img
+.h_right img
 {
-    max-height: 350px;
-    min-height: 300px;
+    min-height: 5vw ;
+    min-height: 10vh;
     padding: 10px;
 }
 .getStart
 {
     min-width: 150px;
+}
+
+@media (width<=800px) {
+    .h_right img
+    {
+        min-width: 70vw;
+        padding: 10px;
+    }
+    .h_right
+    {   
+        display: flex;
+        flex-direction: column;
+    }
+
+    .h_left{
+        border: 1px solid black;
+        min-width: 70vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .h_left h3{
+       font-size: .7rem;
+    }
+    .h_left Button
+    {
+        width: 100%;
+        align-self: center;
+    }
+
 }

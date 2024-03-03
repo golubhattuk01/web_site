@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     gap: 30px;
-    background-color: skyblue;
+    background-color: #87ceeb;
 }
 .sub_footer a{
     text-decoration: none;
