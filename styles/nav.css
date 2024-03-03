@@ -12,6 +12,7 @@
     border-radius: 25%;
 }
 .n_left{
+    gap: 2vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -65,7 +66,7 @@
     {
         display: inline-block;
     }
-    
+
     
 }
   
