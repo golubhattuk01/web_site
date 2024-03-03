@@ -1,14 +1,30 @@
 .sub_footer
 {
     width: 100%;
-    padding: 15px 0px;
+    padding: 1vh 3vw;
     display: flex;
     justify-content: center;
-    gap: 30px;
-    background-color: #87ceeb;
+    gap: 5vw;
+    align-items: center;
+    background-color: #61caf4;
 }
 .sub_footer a{
     text-decoration: none;
     color: black;
     font-weight: 550;
+}
+
+@media (width<=800px)
+{
+    .sub_footer
+    {
+        width: 100%;
+        padding: 1vh 3vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+        align-items: center;
+        background-color: #61caf4;
+    }
 }

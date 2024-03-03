@@ -7,8 +7,6 @@ const Sub_footer = () => {
       <a href="/#">Privacy policy</a>
       <a href="/#">Terms & Condition</a>
       <a href="/#">Security information</a>
-      <a href="/#"></a>
-      <a href="/#"></a>
     </div>
   );
 };

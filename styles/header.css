@@ -8,6 +8,7 @@
     margin-top: 50px;
     
 }
+
 .h_left
 {
     gap: 20px; 
@@ -21,13 +22,9 @@
 }
 .h_right img
 {
-    min-height: 5vw ;
-    min-height: 10vh;
+    width: 35vw ;
+    height: 35vh;
     padding: 10px;
-}
-.getStart
-{
-    min-width: 150px;
 }
 
 @media (width<=800px) {
@@ -51,11 +48,6 @@
     }
     .h_left h3{
        font-size: .7rem;
-    }
-    .h_left Button
-    {
-        width: 100%;
-        align-self: center;
     }
 
 }
