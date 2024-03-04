@@ -4,6 +4,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    transition: 0.2s ease-out;
     /* flex-wrap: wrap; */
 }
 .nav img{
@@ -47,9 +48,10 @@
     text-decoration: none;
 }
 
-.nav_link .title .nav_button:hover {
+.nav_link:hover ,.title:hover, .nav_button:hover {
     color: #2294ed;
-    transition: 0.2s ease-out;
+    background-color:black;
+    transform: translate(0deg , 10deg);
   }
 
   @media (width<=1200px) {

@@ -17,7 +17,7 @@ const Example_section = () => {
         <h1>One platform , endless possibilities</h1>
         <button
           type="button"
-          class="btn active"
+          class="my_btn"
           data-bs-toggle="button"
           aria-pressed="true"
         >
