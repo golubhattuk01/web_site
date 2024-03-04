@@ -9,7 +9,7 @@ const Header = () => {
           Usability is a remote use research platform that takes the guesswork
           out of design decisions by valiating them with real users
         </h3>
-        <button type="button" class="btn btn-primary">
+        <button type="button" className="my_btn">
           Get Started
         </button>
       </div>
