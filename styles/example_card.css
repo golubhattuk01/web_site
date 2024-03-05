@@ -1,6 +1,10 @@
 .example_card {
     min-width: 350px;
     min-height: 350px;
+
+    background-size: cover;
+    border-radius: 50%;
+
     background: black;
     position: relative;
     background: linear-gradient(rgb(0,0,0,0.1) ,rgb(0,0,0,0.8)) ,url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/chris-ried-ieic5Tq8YMk-unsplas_1200x768.jpeg?size=1200:675");
@@ -9,16 +13,16 @@
     text-decoration: none;
     font-size: 3rem;
     color: red;
-    transition: .1s;
+    transition: 1s;
     transition-timing-function: ease-in;
     
 }
 .example_card:hover {
     
     box-shadow: 0px 0px 10px lawngreen;
-    background-size: cover;
-    border-radius: 50%;
-    transform: rotate(-360deg);
+    /* background-size: cover; */
+    border-radius: 10%;
+    /* transform: rotate(-360deg); */
     
 }
 .example_card{
